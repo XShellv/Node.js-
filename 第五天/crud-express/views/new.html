@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+  <link href="/node_modules/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
+</head>
+<body style="padding: 20px">
+<form action="/students/new" method="post">
+  <div class="form-group">
+    <label for="">姓名</label>
+    <input type="text" class="form-control" id="" name="name" >
+  </div>
+    <label class="radio-inline">性别
+        <div>
+            <input type="radio" name="gender" id="" value="0"> 男
+            <input type="radio" name="gender" id="" value="1"> 女
+        </div>
+    </label>
+  <div class="form-group">
+    <label for="">年龄</label>
+    <input type="number" class="form-control" id="" name="age">
+  </div>
+  <div class="form-group">
+    <label for="">爱好</label>
+    <input type="text" class="form-control" id="" name="hobbies">
+  </div>
+  <button type="submit" class="btn btn-success">提交</button>
+</form>
+</body>
+</html>

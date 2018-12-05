@@ -1,0 +1,25 @@
+{
+  "students": [
+    {
+      "name": "徐小武",
+      "gender": "0",
+      "age": "20",
+      "hobbies": "写代码",
+      "id": 0
+    },
+    {
+      "name": "钱沁磊",
+      "gender": "0",
+      "age": "30",
+      "hobbies": "打网球",
+      "id": 2
+    },
+    {
+      "name": "王媛",
+      "gender": "1",
+      "age": "25",
+      "hobbies": "画画",
+      "id": 3
+    }
+  ]
+}
